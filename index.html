@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maria Eduarda Alves | Portfólio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+  <h1>Maria Eduarda 🐼</h1>
+
+  <nav>
+    <button onclick="mostrar('home')">Home</button>
+    <button onclick="mostrar('servicos')">Serviços</button>
+    <button onclick="mostrar('portfolio')">Portfólio</button>
+    <button onclick="mostrar('contato')">Contato</button>
+  </nav>
+
+</header>
+
+
+<!-- =========================
+     HOME
+========================= -->
+
+<section id="home" class="pagina ativa fade">
+
+  <div class="hero">
+
+    <h2>Designer Criativa</h2>
+
+    <p>
+      Design moderno, delicado e cheio de personalidade ✨
+    </p>
+
+  </div>
+
+
+  <!-- SLIDER -->
+
+  <div class="slider">
+
+    <div class="slide-track">
+
+      <div class="slide">🎨 Design</div>
+      <div class="slide">📱 Social</div>
+      <div class="slide">✨ Criatividade</div>
+      <div class="slide">💻 Digital</div>
+
+      <div class="slide">🎨 Design</div>
+      <div class="slide">📱 Social</div>
+      <div class="slide">✨ Criatividade</div>
+      <div class="slide">💻 Digital</div>
+
+    </div>
+
+  </div>
+
+
+  <!-- MINHA JORNADA -->
+
+  <div class="info-box">
+
+    <div class="icon">🐼</div>
+
+    <h3>Minha Jornada</h3>
+
+    <p>
+      Sou formada em Design Gráfico e venho desenvolvendo
+      minhas habilidades em criação visual, identidade de marca,
+      ilustração e design digital.
+    </p>
+
+    <p>
+      Ao longo da minha jornada, venho explorando diferentes
+      estilos e técnicas, sempre buscando evolução e
+      crescimento profissional.
+    </p>
+
+  </div>
+
+
+  <!-- O QUE EU FAÇO -->
+
+  <div class="info-box">
+
+    <div class="icon">🎀</div>
+
+    <h3>O que eu faço</h3>
+
+    <p>
+      Trabalho com criação de identidade visual, design para
+      redes sociais, ilustrações, animações e materiais digitais.
+    </p>
+
+    <p>
+      Meu foco é unir estética e criatividade para criar projetos
+      visualmente atraentes e alinhados à personalidade de cada marca.
+    </p>
+
+  </div>
+
+
+  <!-- DIFERENCIAL -->
+
+  <div class="info-box">
+
+    <div class="icon">✨</div>
+
+    <h3>Diferencial</h3>
+
+    <p>
+      Meu diferencial está na atenção aos detalhes e no cuidado
+      com cada projeto.
+    </p>
+
+    <p>
+      Busco criar designs que transmitam personalidade, leveza
+      e profissionalismo.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     SERVIÇOS
+========================= -->
+
+<section id="servicos" class="pagina fade">
+
+  <button class="voltar" onclick="voltar()">
+    ← Voltar
+  </button>
+
+  <h2>Serviços</h2>
+
+
+  <div class="cards">
+
+    <div class="card">
+      Identidade Visual
+    </div>
+
+    <div class="card">
+      Social Media
+    </div>
+
+    <div class="card">
+      Design Digital
+    </div>
+
+   <div class="card" onclick="mostrar('ilustracao')">
+  🎨 Ilustração
+</div>
+   <div class="card" onclick="mostrar('animacao')">🎬 Animação 2D</div>
+
+  </div>
+
+</section>
+<!-- =========================
+     ILUSTRAÇÃO
+========================= -->
+
+<section id="ilustracao" class="pagina fade">
+
+  <button class="voltar" onclick="voltar()">
+    ← Voltar
+  </button>
+
+  <h2>Ilustração 🎨</h2>
+
+  <p class="texto-ilustracao">
+    Explore meu processo criativo através desta ilustração.
+  </p>
+
+  <div class="video-ilustracao">
+
+    <video controls>
+
+      <source
+        src="imagens/minha-ilustracao.mp4"
+        type="video/mp4"
+      >
+
+      Seu navegador não suporta vídeos.
+
+    </video>
+
+  </div>
+
+</section>
+<section id="animacao" class="pagina fade">
+  <button class="voltar" onclick="voltar()">← Voltar</button>
+
+  <h2>Animação 2D 🎬</h2>
+
+  <p class="texto-ilustracao">
+    Confira uma demonstração do meu trabalho com animação 2D,
+    explorando movimento, criatividade e narrativa visual.
+  </p>
+
+  <div class="video-ilustracao">
+    <video controls>
+      <source src="imagens/minha-animacao.mp4" type="video/mp4">
+      Seu navegador não suporta vídeos.
+    </video>
+  </div>
+</section>
+<!-- =========================
+     PORTFÓLIO
+========================= -->
+
+<section id="portfolio" class="pagina fade">
+
+  <button class="voltar" onclick="voltar()">
+    ← Voltar
+  </button>
+
+
+  <h2>Portfólio</h2>
+
+
+  <!-- =========================
+       PROJETO PANDALUNE
+  ========================= -->
+
+  <div class="projeto">
+
+
+    <!-- CAPA -->
+
+    <div class="projeto-capa">
+
+      <img
+        src="imagens/pandalune-logo.png"
+        alt="Logo da PandaLune"
+      >
+
+    </div>
+
+
+    <!-- INFORMAÇÕES -->
+
+    <div class="projeto-info">
+
+      <span class="categoria">
+        IDENTIDADE VISUAL
+      </span>
+
+      <h3>PandaLune</h3>
+
+      <p class="subtitulo">
+        Papelaria & Presentes
+      </p>
+
+
+      <p>
+        A PandaLune é uma marca fictícia de papelaria e presentes
+        personalizados, criada para explorar uma identidade visual
+        delicada, criativa e acolhedora.
+      </p>
+
+
+      <p>
+        O projeto foi desenvolvido a partir do conceito de uma marca
+        jovem e criativa, combinando elementos inspirados na estética
+        kawaii com uma abordagem visual equilibrada e profissional.
+      </p>
+
+
+      <p>
+        O panda foi escolhido como elemento principal da identidade,
+        acompanhado da lua como referência ao conceito presente no
+        nome "PandaLune".
+      </p>
+
+    </div>
+
+
+    <!-- =========================
+         CONCEITO
+    ========================= -->
+
+    <div class="projeto-secao">
+
+      <h3>Conceito</h3>
+
+      <p>
+        A identidade visual foi desenvolvida para transmitir
+        criatividade, delicadeza, acolhimento e personalidade.
+      </p>
+
+
+      <div class="conceitos">
+
+
+        <div>
+
+          <span>🐼</span>
+
+          <strong>Personalidade</strong>
+
+          <p>
+            Um símbolo marcante e amigável.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <span>🌙</span>
+
+          <strong>Delicadeza</strong>
+
+          <p>
+            Elementos suaves e acolhedores.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <span>✨</span>
+
+          <strong>Criatividade</strong>
+
+          <p>
+            Uma identidade jovem e original.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================
+         LOGOTIPO
+    ========================= -->
+
+    <div class="projeto-secao">
+
+      <h3>Logotipo</h3>
+
+      <p>
+        O logotipo combina o panda e a lua como elementos principais,
+        criando uma identidade visual simples, memorável e alinhada
+        à personalidade da marca.
+      </p>
+
+
+      <div class="imagem-grande">
+
+        <img
+          src="imagens/pandalune-logo.png"
+          alt="Logotipo PandaLune"
+        >
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================
+         APLICAÇÕES
+    ========================= -->
+
+    <div class="projeto-secao">
+
+      <h3>Aplicações da identidade</h3>
+
+      <p>
+        Para demonstrar a versatilidade da identidade visual,
+        a marca foi aplicada em diferentes materiais e produtos.
+      </p>
+
+
+      <div class="galeria-projeto">
+
+
+        <!-- =========================
+             CAMISETA
+        ========================= -->
+
+        <div class="item-projeto">
+
+          <div class="grupo-imagens camiseta">
+
+            <img
+              src="imagens/pandalune-camisetadobrada.png"
+              alt="Camiseta PandaLune dobrada"
+            >
+
+            <img
+              src="imagens/pandalune-camiseta.png"
+              alt="Camiseta PandaLune"
+            >
+
+          </div>
+
+
+          <h4>Camiseta</h4>
+
+          <p>
+            Aplicação da identidade visual em vestuário,
+            apresentando diferentes formas de visualização da peça.
+          </p>
+
+        </div>
+
+
+        <!-- =========================
+             CADERNO
+        ========================= -->
+
+        <div class="item-projeto">
+
+          <div class="grupo-imagens caderno">
+
+            <img
+              src="imagens/pandalune-caderno.png"
+              alt="Caderno PandaLune"
+            >
+
+          </div>
+
+
+          <h4>Caderno</h4>
+
+          <p>
+            Aplicação da identidade visual em um produto
+            de papelaria.
+          </p>
+
+        </div>
+
+
+        <!-- =========================
+             CARTÃO
+        ========================= -->
+
+        <div class="item-projeto">
+
+          <div class="grupo-imagens cartao">
+
+            <img
+              src="imagens/pandalune-cartao.png"
+              alt="Mockup de cartão PandaLune"
+            >
+
+            <img
+              src="imagens/pandalune-cartaofrente.png"
+              alt="Frente do cartão PandaLune"
+            >
+
+            <img
+              src="imagens/pandalune-cartaoverso.png"
+              alt="Verso do cartão PandaLune"
+            >
+
+          </div>
+
+
+          <h4>Cartão de visita</h4>
+
+          <p>
+            Material institucional desenvolvido para apresentar
+            a identidade visual da marca.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================
+         ENCERRAMENTO
+    ========================= -->
+
+    <div class="projeto-final">
+
+      <h3>Identidade PandaLune</h3>
+
+      <p>
+        Um projeto desenvolvido para explorar a criação de uma
+        identidade visual completa e suas aplicações em diferentes
+        pontos de contato da marca.
+      </p>
+
+      <span>
+        Projeto conceitual desenvolvido para portfólio.
+      </span>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     CONTATO
+========================= -->
+
+<section id="contato" class="pagina fade">
+
+  <button class="voltar" onclick="voltar()">
+    ← Voltar
+  </button>
+
+
+  <h2>Contato</h2>
+
+
+  <p>
+    Email: cepi.mariaeduarda@gmail.com
+  </p>
+
+
+  <div class="banner-final">
+
+    <img
+      src="imagens/banner.png"
+      alt="Banner do portfólio"
+    >
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     MÚSICA
+========================= -->
+
+<div
+  class="music-player"
+  onclick="toggleMusica()"
+>
+
+  <span id="icone-musica">
+    🎧
+  </span>
+
+</div>
+
+
+<audio id="musica" loop>
+
+  <source
+    src="musica.mp3"
+    type="audio/mpeg"
+  >
+
+</audio>
+
+
+<!-- =========================
+     RODAPÉ
+========================= -->
+
+<footer>
+
+  <p>
+    © 2026 - Web Design | Maria Eduarda
+  </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
