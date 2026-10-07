@@ -19,11 +19,33 @@
   <h1>Maria Eduarda 🐼</h1>
 
   <nav>
-    <button onclick="mostrar('home')">Home</button>
-    <button onclick="mostrar('servicos')">Serviços</button>
-    <button onclick="mostrar('portfolio')">Portfólio</button>
-    <button onclick="mostrar('contato')">Contato</button>
+    <button onclick="mostrar('home')" data-pt="Home" data-en="Home">Home</button>
+
+    <button onclick="mostrar('servicos')" data-pt="Serviços" data-en="Services">
+      Serviços
+    </button>
+
+    <button onclick="mostrar('portfolio')" data-pt="Portfólio" data-en="Portfolio">
+      Portfólio
+    </button>
+
+    <button onclick="mostrar('contato')" data-pt="Contato" data-en="Contact">
+      Contato
+    </button>
   </nav>
+
+  <!-- BOTÃO DE IDIOMA -->
+  <div class="language-switcher">
+
+    <button onclick="changeLanguage('pt')">
+      🇧🇷 PT
+    </button>
+
+    <button onclick="changeLanguage('en')">
+      🇺🇸 EN
+    </button>
+
+  </div>
 
 </header>
 
@@ -36,11 +58,17 @@
 
   <div class="hero">
 
-    <h2>Designer Criativa</h2>
+  <h2
+  data-pt="Designer Criativa"
+  data-en="Creative Designer">
+  Designer Criativa
+</h2>
 
-    <p>
-      Design moderno, delicado e cheio de personalidade ✨
-    </p>
+<p
+  data-pt="Design moderno, delicado e cheio de personalidade ✨"
+  data-en="Modern, delicate design full of personality ✨">
+  Design moderno, delicado e cheio de personalidade ✨
+</p>
 
   </div>
 
@@ -51,15 +79,37 @@
 
     <div class="slide-track">
 
-      <div class="slide">🎨 Design</div>
-      <div class="slide">📱 Social</div>
-      <div class="slide">✨ Criatividade</div>
-      <div class="slide">💻 Digital</div>
+    <div class="slide" data-pt="🎨 Design" data-en="🎨 Design">
+  🎨 Design
+</div>
 
-      <div class="slide">🎨 Design</div>
-      <div class="slide">📱 Social</div>
-      <div class="slide">✨ Criatividade</div>
-      <div class="slide">💻 Digital</div>
+<div class="slide" data-pt="📱 Social" data-en="📱 Social">
+  📱 Social
+</div>
+
+<div class="slide" data-pt="✨ Criatividade" data-en="✨ Creativity">
+  ✨ Criatividade
+</div>
+
+<div class="slide" data-pt="💻 Digital" data-en="💻 Digital">
+  💻 Digital
+</div>
+
+<div class="slide" data-pt="🎨 Design" data-en="🎨 Design">
+  🎨 Design
+</div>
+
+<div class="slide" data-pt="📱 Social" data-en="📱 Social">
+  📱 Social
+</div>
+
+<div class="slide" data-pt="✨ Criatividade" data-en="✨ Creativity">
+  ✨ Criatividade
+</div>
+
+<div class="slide" data-pt="💻 Digital" data-en="💻 Digital">
+  💻 Digital
+</div>
 
     </div>
 
@@ -72,19 +122,27 @@
 
     <div class="icon">🐼</div>
 
-    <h3>Minha Jornada</h3>
+  <h3
+  data-pt="Minha Jornada"
+  data-en="My Journey">
+  Minha Jornada
+</h3>
 
-    <p>
-      Sou formada em Design Gráfico e venho desenvolvendo
-      minhas habilidades em criação visual, identidade de marca,
-      ilustração e design digital.
-    </p>
+   <p
+  data-pt="Sou formada em Design Gráfico e venho desenvolvendo minhas habilidades em criação visual, identidade de marca, ilustração e design digital."
+  data-en="I have a degree in Graphic Design and have been developing my skills in visual design, brand identity, illustration, and digital design.">
+  Sou formada em Design Gráfico e venho desenvolvendo
+  minhas habilidades em criação visual, identidade de marca,
+  ilustração e design digital.
+</p>
 
-    <p>
-      Ao longo da minha jornada, venho explorando diferentes
-      estilos e técnicas, sempre buscando evolução e
-      crescimento profissional.
-    </p>
+<p
+  data-pt="Ao longo da minha jornada, venho explorando diferentes estilos e técnicas, sempre buscando evolução e crescimento profissional."
+  data-en="Throughout my journey, I have explored different styles and techniques, always seeking professional growth and improvement.">
+  Ao longo da minha jornada, venho explorando diferentes
+  estilos e técnicas, sempre buscando evolução e
+  crescimento profissional.
+</p>
 
   </div>
 
@@ -95,17 +153,25 @@
 
     <div class="icon">🎀</div>
 
-    <h3>O que eu faço</h3>
+   <h3
+  data-pt="O que eu faço"
+  data-en="What I Do">
+  O que eu faço
+</h3>
 
-    <p>
-      Trabalho com criação de identidade visual, design para
-      redes sociais, ilustrações, animações e materiais digitais.
-    </p>
+  <p
+  data-pt="Trabalho com criação de identidade visual, design para redes sociais, ilustrações, animações e materiais digitais."
+  data-en="I work with visual identity, social media design, illustrations, animations, and digital materials.">
+  Trabalho com criação de identidade visual, design para
+  redes sociais, ilustrações, animações e materiais digitais.
+</p>
 
-    <p>
-      Meu foco é unir estética e criatividade para criar projetos
-      visualmente atraentes e alinhados à personalidade de cada marca.
-    </p>
+<p
+  data-pt="Meu foco é unir estética e criatividade para criar projetos visualmente atraentes e alinhados à personalidade de cada marca."
+  data-en="My focus is to combine aesthetics and creativity to create visually appealing projects that reflect each brand's personality.">
+  Meu foco é unir estética e criatividade para criar projetos
+  visualmente atraentes e alinhados à personalidade de cada marca.
+</p>
 
   </div>
 
@@ -116,17 +182,25 @@
 
     <div class="icon">✨</div>
 
-    <h3>Diferencial</h3>
+    <h3
+  data-pt="Diferencial"
+  data-en="My Difference">
+  Diferencial
+</h3>
 
-    <p>
-      Meu diferencial está na atenção aos detalhes e no cuidado
-      com cada projeto.
-    </p>
+  <p
+  data-pt="Meu diferencial está na atenção aos detalhes e no cuidado com cada projeto."
+  data-en="My difference lies in my attention to detail and the care I put into each project.">
+  Meu diferencial está na atenção aos detalhes e no cuidado
+  com cada projeto.
+</p>
 
-    <p>
-      Busco criar designs que transmitam personalidade, leveza
-      e profissionalismo.
-    </p>
+<p
+  data-pt="Busco criar designs que transmitam personalidade, leveza e profissionalismo."
+  data-en="I aim to create designs that convey personality, creativity, and professionalism.">
+  Busco criar designs que transmitam personalidade, leveza
+  e profissionalismo.
+</p>
 
   </div>
 
@@ -139,31 +213,50 @@
 
 <section id="servicos" class="pagina fade">
 
-  <button class="voltar" onclick="voltar()">
-    ← Voltar
-  </button>
+ <button class="voltar" onclick="voltar()"
+  data-pt="← Voltar"
+  data-en="← Back">
+  ← Voltar
+</button>
 
-  <h2>Serviços</h2>
+  <h2
+  data-pt="Serviços"
+  data-en="Services">
+  Serviços
+</h2>
 
 
-  <div class="cards">
+ <div class="card"
+  data-pt="Identidade Visual"
+  data-en="Visual Identity">
+  Identidade Visual
+</div>
 
-    <div class="card">
-      Identidade Visual
-    </div>
+<div class="card"
+  data-pt="Social Media"
+  data-en="Social Media">
+  Social Media
+</div>
 
-    <div class="card">
-      Social Media
-    </div>
+<div class="card"
+  data-pt="Design Digital"
+  data-en="Digital Design">
+  Design Digital
+</div>
 
-    <div class="card">
-      Design Digital
-    </div>
-
-   <div class="card" onclick="mostrar('ilustracao')">
+<div class="card"
+  onclick="mostrar('ilustracao')"
+  data-pt="🎨 Ilustração"
+  data-en="🎨 Illustration">
   🎨 Ilustração
 </div>
-   <div class="card" onclick="mostrar('animacao')">🎬 Animação 2D</div>
+
+<div class="card"
+  onclick="mostrar('animacao')"
+  data-pt="🎬 Animação 2D"
+  data-en="🎬 2D Animation">
+  🎬 Animação 2D
+</div>
 
   </div>
 
@@ -178,11 +271,18 @@
     ← Voltar
   </button>
 
-  <h2>Ilustração 🎨</h2>
+  <h2
+  data-pt="Ilustração 🎨"
+  data-en="Illustration 🎨">
+  Ilustração 🎨
+</h2>
 
-  <p class="texto-ilustracao">
-    Explore meu processo criativo através desta ilustração.
-  </p>
+<p
+  class="texto-ilustracao"
+  data-pt="Explore meu processo criativo através desta ilustração."
+  data-en="Explore my creative process through this illustration.">
+  Explore meu processo criativo através desta ilustração.
+</p>
 
   <div class="video-ilustracao">
 
@@ -203,12 +303,19 @@
 <section id="animacao" class="pagina fade">
   <button class="voltar" onclick="voltar()">← Voltar</button>
 
-  <h2>Animação 2D 🎬</h2>
+  <h2
+  data-pt="Animação 2D 🎬"
+  data-en="2D Animation 🎬">
+  Animação 2D 🎬
+</h2>
 
-  <p class="texto-ilustracao">
-    Confira uma demonstração do meu trabalho com animação 2D,
-    explorando movimento, criatividade e narrativa visual.
-  </p>
+<p
+  class="texto-ilustracao"
+  data-pt="Confira uma demonstração do meu trabalho com animação 2D, explorando movimento, criatividade e narrativa visual."
+  data-en="Check out a demonstration of my 2D animation work, exploring movement, creativity, and visual storytelling.">
+  Confira uma demonstração do meu trabalho com animação 2D,
+  explorando movimento, criatividade e narrativa visual.
+</p>
 
   <div class="video-ilustracao">
     <video controls>
@@ -254,37 +361,48 @@
 
     <div class="projeto-info">
 
-      <span class="categoria">
-        IDENTIDADE VISUAL
-      </span>
+    <span
+  class="categoria"
+  data-pt="IDENTIDADE VISUAL"
+  data-en="VISUAL IDENTITY">
+  IDENTIDADE VISUAL
+</span>
 
-      <h3>PandaLune</h3>
+   <h3>PandaLune</h3>
 
-      <p class="subtitulo">
-        Papelaria & Presentes
-      </p>
-
-
-      <p>
-        A PandaLune é uma marca fictícia de papelaria e presentes
-        personalizados, criada para explorar uma identidade visual
-        delicada, criativa e acolhedora.
-      </p>
-
-
-      <p>
-        O projeto foi desenvolvido a partir do conceito de uma marca
-        jovem e criativa, combinando elementos inspirados na estética
-        kawaii com uma abordagem visual equilibrada e profissional.
-      </p>
+<p
+  class="subtitulo"
+  data-pt="Papelaria & Presentes"
+  data-en="Stationery & Gifts">
+  Papelaria & Presentes
+</p>
 
 
-      <p>
-        O panda foi escolhido como elemento principal da identidade,
-        acompanhado da lua como referência ao conceito presente no
-        nome "PandaLune".
-      </p>
+    <p
+  data-pt="A PandaLune é uma marca fictícia de papelaria e presentes personalizados, criada para explorar uma identidade visual delicada, criativa e acolhedora."
+  data-en="PandaLune is a fictional stationery and personalized gifts brand created to explore a delicate, creative, and welcoming visual identity.">
+  A PandaLune é uma marca fictícia de papelaria e presentes
+  personalizados, criada para explorar uma identidade visual
+  delicada, criativa e acolhedora.
+</p>
 
+
+     <p
+  data-pt="O projeto foi desenvolvido a partir do conceito de uma marca jovem e criativa, combinando elementos inspirados na estética kawaii com uma abordagem visual equilibrada e profissional."
+  data-en="The project was developed around the concept of a young and creative brand, combining elements inspired by kawaii aesthetics with a balanced and professional visual approach.">
+  O projeto foi desenvolvido a partir do conceito de uma marca
+  jovem e criativa, combinando elementos inspirados na estética
+  kawaii com uma abordagem visual equilibrada e profissional.
+</p>
+
+
+<p
+  data-pt='O panda foi escolhido como elemento principal da identidade, acompanhado da lua como referência ao conceito presente no nome "PandaLune".'
+  data-en='The panda was chosen as the main element of the identity, accompanied by the moon as a reference to the concept represented in the name "PandaLune".'>
+  O panda foi escolhido como elemento principal da identidade,
+  acompanhado da lua como referência ao conceito presente no
+  nome "PandaLune".
+</p>
     </div>
 
 
@@ -302,18 +420,28 @@
       </p>
 
 
-      <div class="conceitos">
+     <h3
+  data-pt="Conceito"
+  data-en="Concept">
+  Conceito
+</h3>
 
 
         <div>
 
           <span>🐼</span>
 
-          <strong>Personalidade</strong>
+         <strong
+  data-pt="Personalidade"
+  data-en="Personality">
+  Personalidade
+</strong>
 
-          <p>
-            Um símbolo marcante e amigável.
-          </p>
+        <p
+  data-pt="Um símbolo marcante e amigável."
+  data-en="A memorable and friendly symbol.">
+  Um símbolo marcante e amigável.
+</p>
 
         </div>
 
@@ -322,11 +450,17 @@
 
           <span>🌙</span>
 
-          <strong>Delicadeza</strong>
+        <strong
+  data-pt="Delicadeza"
+  data-en="Delicacy">
+  Delicadeza
+</strong>
 
-          <p>
-            Elementos suaves e acolhedores.
-          </p>
+         <p
+  data-pt="Elementos suaves e acolhedores."
+  data-en="Soft and welcoming elements.">
+  Elementos suaves e acolhedores.
+</p>
 
         </div>
 
@@ -335,11 +469,17 @@
 
           <span>✨</span>
 
-          <strong>Criatividade</strong>
+        <strong
+  data-pt="Criatividade"
+  data-en="Creativity">
+  Criatividade
+</strong>
 
-          <p>
-            Uma identidade jovem e original.
-          </p>
+         <p
+  data-pt="Uma identidade jovem e original."
+  data-en="A young and original identity.">
+  Uma identidade jovem e original.
+</p>
 
         </div>
 
@@ -355,14 +495,19 @@
 
     <div class="projeto-secao">
 
-      <h3>Logotipo</h3>
+     <h3
+  data-pt="Logotipo"
+  data-en="Logo">
+  Logotipo
+</h3>
 
-      <p>
-        O logotipo combina o panda e a lua como elementos principais,
-        criando uma identidade visual simples, memorável e alinhada
-        à personalidade da marca.
-      </p>
-
+     <p
+  data-pt="O logotipo combina o panda e a lua como elementos principais, criando uma identidade visual simples, memorável e alinhada à personalidade da marca."
+  data-en="The logo combines the panda and the moon as the main elements, creating a simple, memorable visual identity aligned with the personality of the brand.">
+  O logotipo combina o panda e a lua como elementos principais,
+  criando uma identidade visual simples, memorável e alinhada
+  à personalidade da marca.
+</p>
 
       <div class="imagem-grande">
 
@@ -382,12 +527,18 @@
 
     <div class="projeto-secao">
 
-      <h3>Aplicações da identidade</h3>
+      <h3
+  data-pt="Aplicações da identidade"
+  data-en="Brand Applications">
+  Aplicações da identidade
+</h3>
 
-      <p>
-        Para demonstrar a versatilidade da identidade visual,
-        a marca foi aplicada em diferentes materiais e produtos.
-      </p>
+      <p
+  data-pt="Para demonstrar a versatilidade da identidade visual, a marca foi aplicada em diferentes materiais e produtos."
+  data-en="To demonstrate the versatility of the visual identity, the brand was applied to different materials and products.">
+  Para demonstrar a versatilidade da identidade visual,
+  a marca foi aplicada em diferentes materiais e produtos.
+</p>
 
 
       <div class="galeria-projeto">
@@ -414,12 +565,18 @@
           </div>
 
 
-          <h4>Camiseta</h4>
+          <h4
+  data-pt="Camiseta"
+  data-en="T-Shirt">
+  Camiseta
+</h4>
 
-          <p>
-            Aplicação da identidade visual em vestuário,
-            apresentando diferentes formas de visualização da peça.
-          </p>
+          <p
+  data-pt="Aplicação da identidade visual em vestuário, apresentando diferentes formas de visualização da peça."
+  data-en="Application of the visual identity to clothing, presenting different ways of visualizing the piece.">
+  Aplicação da identidade visual em vestuário,
+  apresentando diferentes formas de visualização da peça.
+</p>
 
         </div>
 
@@ -440,12 +597,18 @@
           </div>
 
 
-          <h4>Caderno</h4>
+        <h4
+  data-pt="Caderno"
+  data-en="Notebook">
+  Caderno
+</h4>
 
-          <p>
-            Aplicação da identidade visual em um produto
-            de papelaria.
-          </p>
+          <p
+  data-pt="Aplicação da identidade visual em um produto de papelaria."
+  data-en="Application of the visual identity to a stationery product.">
+  Aplicação da identidade visual em um produto
+  de papelaria.
+</p>
 
         </div>
 
@@ -476,12 +639,18 @@
           </div>
 
 
-          <h4>Cartão de visita</h4>
+          <h4
+  data-pt="Cartão de visita"
+  data-en="Business Card">
+  Cartão de visita
+</h4>
 
-          <p>
-            Material institucional desenvolvido para apresentar
-            a identidade visual da marca.
-          </p>
+          <p
+  data-pt="Material institucional desenvolvido para apresentar a identidade visual da marca."
+  data-en="Institutional material developed to showcase the brand's visual identity.">
+  Material institucional desenvolvido para apresentar
+  a identidade visual da marca.
+</p>
 
         </div>
 
@@ -528,12 +697,20 @@
   </button>
 
 
-  <h2>Contato</h2>
+<h2
+  data-pt="Contato"
+  data-en="Contact">
+  Contato
+</h2>
 
-
-  <p>
-    Email: cepi.mariaeduarda@gmail.com
-  </p>
+<p>
+  <span
+    data-pt="Email:"
+    data-en="Email:">
+    Email:
+  </span>
+  cepi.mariaeduarda@gmail.com
+</p>
 
 
   <div class="banner-final">

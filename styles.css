@@ -1107,4 +1107,38 @@ footer {
   display: block;
 
   border-radius: 18px;
+}/* =========================================
+   SELETOR DE IDIOMA
+========================================= */
+
+.language-switcher {
+
+  display: flex;
+
+  gap: 5px;
+
+  align-items: center;
+
+}
+
+
+.language-switcher button {
+
+  padding: 7px 10px;
+
+  border-radius: 15px;
+
+  font-size: 13px;
+
+  background: rgba(255,255,255,0.2);
+
+}
+
+
+.language-switcher button:hover {
+
+  background: #e0aaff;
+
+  transform: scale(1.05);
+
 }

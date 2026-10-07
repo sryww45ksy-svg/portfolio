@@ -80,4 +80,40 @@ function toggleMusica() {
 
   tocando = !tocando;
 
+}/* =========================
+   IDIOMA
+========================= */
+
+function changeLanguage(language) {
+
+  const elements = document.querySelectorAll('[data-pt][data-en]');
+
+  elements.forEach(element => {
+
+    element.textContent = element.getAttribute(`data-${language}`);
+
+  });
+
+  // Altera o idioma do HTML
+  if (language === 'en') {
+    document.documentElement.lang = 'en';
+  } else {
+    document.documentElement.lang = 'pt-BR';
+  }
+
+  // Salva a escolha do usuário
+  localStorage.setItem('language', language);
 }
+
+
+/* =========================
+   CARREGAR IDIOMA SALVO
+========================= */
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  const savedLanguage = localStorage.getItem('language') || 'pt';
+
+  changeLanguage(savedLanguage);
+
+});
