@@ -1142,3 +1142,134 @@ footer {
   transform: scale(1.05);
 
 }
+/* =========================
+   NOVA SEÇÃO DE CONTATO
+========================= */
+
+.contato-card {
+  width: 90%;
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 40px 25px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contato-icone {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.contato-card h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contato-card p {
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.contato-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.contato-botao {
+  display: inline-block;
+  width: 100%;
+  max-width: 350px;
+  padding: 14px 20px;
+  border-radius: 25px;
+  background: #c77dff;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contato-botao:hover {
+  background: #e0aaff;
+  transform: translateY(-3px);
+}
+
+.contato-card .contato-final {
+  margin: 30px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .contato-card {
+    padding: 30px 18px;
+  }
+
+  .contato-card h2 {
+    font-size: 26px;
+  }
+}
+
+/* =========================
+   PROJETO AUDIOVISUAL
+========================= */
+
+.projeto-video {
+  width: 90%;
+  max-width: 1000px;
+  margin: 70px auto;
+  padding: 35px 25px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(10px);
+}
+
+.projeto-video h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.projeto-video .categoria {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.video-academico {
+  width: 100%;
+  max-width: 850px;
+  margin: 30px auto 15px;
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.video-academico video {
+  display: block;
+  width: 100%;
+  max-height: 600px;
+  border-radius: 15px;
+}
+
+.legenda-video {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .projeto-video {
+    width: 92%;
+    padding: 25px 15px;
+  }
+
+  .projeto-video h3 {
+    font-size: 24px;
+  }
+}
